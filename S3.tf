@@ -21,7 +21,6 @@ resource "aws_s3_bucket" "app_server12" {
   acl    = "public-read-write"
   versioning {
     enabled = true
-    
   }
   logging {
     target_bucket = "pavantestbucket"
